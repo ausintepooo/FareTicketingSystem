@@ -173,7 +173,7 @@ while True:
             if Discount in (1, 2, 3):
                 clear()
                 Total = fare[From-1][To-1] * 0.80
-                DiscountFee = fare[From-1][To-1 * 0.20
+                DiscountFee = fare[From-1][To-1] * 0.20
                 print("\n\n              GOORPU")
                 print("===================================")
                 type_writer(f"Driver's Name: {DriverName}")
